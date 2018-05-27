@@ -15,4 +15,9 @@
     <item name="iconColor">@color/icon</item>
   </style>
 
+  <style name="Widget.Button.Primary" parent="Widget.AppCompat.Button">
+    <item name="colorButtonNormal">?attr/buttonNormalColor</item>
+    <item name="colorControlHighlight">?attr/buttonHighlightColor</item>
+    <item name="android:textColor">?attr/buttonTextColor</item>
+  </style>
 </resources>
