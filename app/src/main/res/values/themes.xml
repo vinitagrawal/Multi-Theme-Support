@@ -2,7 +2,10 @@
 <resources>
 
   <!-- Base application theme. -->
-  <style name="Base.Theme.App" parent="Theme.AppCompat.Light.DarkActionBar" />
+  <style name="Base.Theme.App" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="textViewStyle">@style/TextAppearance.App.Widget.TextView</item>
+    <item name="primaryButtonTheme">@style/Widget.Button.Primary</item>
+  </style>
 
   <style name="Theme.App" parent="Base.Theme.App">
     <item name="colorPrimary">@color/colorPrimary</item>

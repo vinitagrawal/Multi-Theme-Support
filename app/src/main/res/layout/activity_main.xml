@@ -18,12 +18,11 @@
 
   <TextView
     android:id="@+id/textView"
+    style="?attr/textViewStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="@dimen/margin"
-    android:textColor="@color/primaryText"
-    android:text="@string/sample_text"
-    android:textSize="@dimen/text" />
+    android:text="@string/sample_text" />
 
   <LinearLayout
     android:layout_width="match_parent"
@@ -86,9 +85,9 @@
   </LinearLayout>
 
   <Button
-    android:theme="@style/Widget.Button.Primary"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/margin"
-    android:text="Button" />
+    android:text="Button"
+    android:theme="?attr/primaryButtonTheme" />
 </LinearLayout>

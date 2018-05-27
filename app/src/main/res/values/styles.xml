@@ -1,3 +1,7 @@
 <resources>
 
+  <style name="TextAppearance.App.Widget.TextView" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">?attr/primaryTextColor</item>
+    <item name="android:textSize">@dimen/text</item>
+  </style>
 </resources>
