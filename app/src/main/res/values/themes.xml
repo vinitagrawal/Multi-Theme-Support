@@ -7,7 +7,7 @@
     <item name="primaryButtonTheme">@style/Widget.Button.Primary</item>
   </style>
 
-  <style name="Theme.App" parent="Base.Theme.App">
+  <style name="Theme.App.Lilac" parent="Base.Theme.App">
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
@@ -16,6 +16,17 @@
     <item name="buttonHighlightColor">@color/buttonHighlight</item>
     <item name="buttonTextColor">@color/buttonText</item>
     <item name="iconColor">@color/icon</item>
+  </style>
+
+  <style name="Theme.App.Mint" parent="Base.Theme.App">
+    <item name="colorPrimary">@color/mintColorPrimary</item>
+    <item name="colorPrimaryDark">@color/mintColorPrimaryDark</item>
+    <item name="colorAccent">@color/mintColorAccent</item>
+    <item name="primaryTextColor">@color/mintPrimaryText</item>
+    <item name="buttonNormalColor">@color/mintButtonNormal</item>
+    <item name="buttonHighlightColor">@color/mintButtonHighlight</item>
+    <item name="buttonTextColor">@color/mintButtonText</item>
+    <item name="iconColor">@color/mintIcon</item>
   </style>
 
   <style name="Widget.Button.Primary" parent="Widget.AppCompat.Button">
